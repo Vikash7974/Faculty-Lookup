@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>User Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input id="name" type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input id="dob" type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input id="email" type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input id="mobnum" type="mobile number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label> Gender </label>
+                            <select id="gender" required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input id="city" type="City" placeholder="Enter your City" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Job Required Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Education Level</label>
+                            <select id="education-level" required>
+                                <option value="Education level">Education level</option>
+                                <option>High School</option>
+                                <option>UG</option>
+                                <option>PG</option>
+                                <option>PHD</option>
+                            </select>
+                            
+                        </div>
+
+                        <div class="input-field">
+                            <label>Experience</label>
+                            <input id="exp" type="number" placeholder="Year of Experience" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Subject</label>
+                            <input id="subject" type="text" placeholder="Subject" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Monthly CTC</label>
+                            <input id="ctc" type="text" placeholder="Monthly CTC" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Upload Resume</label>
+                            <input type="file" id="resume" class="sr-only"
+                            aria-label="Resume">
+                            
+                            <label for="resume" class="btn"
+                            aria-hidden="true"></label>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input id="password" type="password" placeholder="Enter Password" required>
+                        </div>
+                        
+                    </div>
+                    <div class="tacbox">
+                        <input id="checkbox" type="checkbox"/>
+                        <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+                    </div>
+                
+                    <button id="submit" class="sumbit">
+                       <span class="btnText"> Register</span>
+                     <!-- <div> <a href="#">Already Register?</a></div>-->
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                    
+</body>
+</html>
